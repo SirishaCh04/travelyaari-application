@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="mdb.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<style>
+      
+    .carousel-indicators li {
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+  background-color: #ccc;
+  margin: 0 5px;
+  list-style: none;
+}
+
+</style>
+<body>
+    <nav class="navbar navbar-expand-lg bg-primary">
+        <div class="container">
+        <a class="navbar-brand text-white" href="#">
+        <i class="fa fa-plane"></i> Travel Yaari</a>
+        <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link text-white" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item px-3">
+              <a class="nav-link text-white" href="#">Search</a>
+            </li>
+            <li class="nav-item px-3">
+              <a class="nav-link text-white" href="#">Visiting Spots</a>
+            </li>
+            <li class="nav-item px-3">
+                <a class="nav-link text-white" href="#">Gallery</a>
+              </li>
+              <li class="nav-item px-3">
+                <a class="nav-link text-white" href="#">Contact</a>
+              </li>
+            </ul>
+        </div>
+        </nav>
+        <div id="carouselExampleIndicators" class="carousel slide">
+          <ol class="carousel-indicators active">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+          </ol>
+          <div class="carousel-inner">
+          <div class="carousel-item active">
+          <img src="travel images/slider_1.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption">
+          <div class="display-3">Feel the Joy</div>
+          <p class="h5">Enjoy Every Moment of your Travel</p>
+          <button class="btn btn-danger btn-sm">Read More</button>
+          </div>
+          </div>
+          <div class="carousel-item">
+          <img src="travel images/slider_2.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption">
+            <div class="display-2">Explore.Discover.Repeat</div>
+            <p class="h5">Explore the world, enrich your soul</p>
+            <button class="btn btn-danger btn-sm">Read More</button>
+          </div>
+          </div>
+          <div class="carousel-item">
+          <img src="travel images/slider_3.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption">
+            <div class="display-3">Escape the Ordinary</div>
+            <p class="h5">Adventure awaits</p>
+            <button class="btn btn-danger btn-sm">Read More</button>
+          </div>
+          </div>
+        </div>
+      </div>
+          <section class="bg-secondary text-white">
+            <div class="container p-3">
+              <div class="row">
+                <div class="col">
+                  <h5 class="h1">Search Your Destination</h5>
+                  <p class="h5">Where will you go next? Search for destinations and start planning your trip</p>
+                  <div class="row">
+                    <div class="col-md-6">
+                         <form>
+                          <input type="text" class="form-control" placeholder="paris">
+                         </form>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <section class="bg-light p-4">
+            <div class="container">
+              <div class="row">
+                <div class="col-md-4">
+                  <div class="card text-center mt-4">
+                    <div class="card-body">
+                      <i class="fa fa-location-arrow fa-4x"></i>
+                      <p class="h2">Pick Location</p>
+                      <p>Start your journey by selecting your desired destination. Click on the map to drop a pin and explore the wonders of the world, one location at a time</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="card text-center mt-4">
+                    <div class="card-body">
+                      <i class="fa fa-building fa-4x"></i>
+                      <p class="h2">Shop Travel</p>
+                      <p>Get ready to explore the world without breaking the bank! Our travel store offers exclusive deals on flights, hotels, and packages. Browse our collection to find perfect gateway</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="card text-center mt-4">
+                    <div class="card-body">
+                      <i class="fa fa-plane fa-4x"></i>
+                      <p class="h2">Fly Cheap</p>
+                      <p>Dreaming of flying high without burning a hole in your pocket? We've got you covered! Our platform offers unbeatable discounts on flights to your favorite destinations.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <section>
+            <div class="container">
+              <div class="row">
+                <div class="col text-center">
+                  <span class="display-2 text-primary">Popular</span>
+                  <span class="display-2 p-3">Places</span>
+                  <p>Explore the most sought-after destinations and experience the essence of travel with our curated list of popular places.</p>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-3">
+                   <div class="card mt-4" style="width: 300px">
+                <img src="travel images/pondicherry.jpg" alt="">
+                <div class="card-body">
+                  <h3 class="card-title">Pondicherry, Kerala</h3>
+                  <p class="card-text">Pondicherry, a charming coastal town in southern India, is a melting pot of French and Indian cultures. This former French colony is dotted with picturesque colonial architecture, quaint cafes, and serene beaches. </p>
+                    <button class="btn btn-primary btn-sm">Read More</button>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3">
+                <div class="card mt-4" style="width: 300px;">
+                  <img src="travel images/manali.jpg" alt="">
+                  <div class="card-body">
+                    <h3 class="card-title">Manali, HP</h3>
+                    <p class="card-text">Manali, a picturesque hill station nestled in the Himalayas, is a haven for adventure seekers and nature lovers. Surrounded by snow-capped mountains, lush forests, and the serene Beas River, Manali offers breathtaking vistas. </p>
+                      <button class="btn btn-primary btn-sm">Read More</button>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-3">
+                  <div class="card mt-4" style="width: 300px">
+                    <img src="travel images/paris.jpg" alt="">
+                    <div class="card-body">
+                      <h3 class="card-title">Paris, France</h3>
+                      <p class="card-text">Paris, the City of Light, is a mesmerizing metropolis that embodies the essence of French elegance and charm. With its picturesque River Seine, iconic Eiffel Tower, and world-class artists, art museums and history buffs.</p>
+                        <button class="btn btn-primary btn-sm">Read More</button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-3">
+                    <div class="card mt-4" style="width: 300px">
+                      <img src="travel images/dubai.jpg" alt="">
+                      <div class="card-body">
+                        <h3 class="card-title">Dubai, UAE</h3>
+                        <p class="card-text">Dubai, a city of opulence and innovation, is a fascinating blend of traditional Middle Eastern culture and modern luxury. From the towering Burj Khalifa, the world's tallest building. Dubai is a city that dazzles and delights.</p>
+                          <button class="btn btn-primary btn-sm">Read More</button>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+                <div class="row">
+                  <div class="col text-center mt-3">
+                    <button class="btn btn-dark"><i class="fa fa-play"></i> Start Booking</button>
+                  </div>
+                </div>
+                </div>
+          </section>
+          <section class="bg-warning text-center p-4 mt-3">
+            <div class="container">
+              <div class="row">
+                <div class="col">
+            <h1>Follow Travel Yaari</h1>
+            <p>Explore the world with us, one destination at a time!</p>
+            <i class="fa fa-facebook-square fa-3x p-3"></i>
+            <i class="fa fa-youtube-square fa-3x p-3"></i>
+            <i class="fa fa-twitter-square fa-3x p-3"></i>
+            <i class="fa fa-google-plus-square fa-3x p-3"></i>
+            <i class="fa fa-instagram fa-3x p-3"></i>
+          </div>
+        </div>
+      </div>
+          </section>
+          <section>
+            <div class="container">
+            <div class="row">
+              <div class="col text-center mt-3">
+                <span class="display-2 text-danger">Photo</span>
+                <span class="display-2 p-3">Gallery</span>
+                <p class="h3">Snapshots of life, frames of the heart!</p>
+              </div>
+            </div>
+          </div>
+          <div class="row p-4">
+            <div class="col-md-3 p-4">
+              <img src="travel images/pondy1.jpg" style="width: 100%; object-fit: cover; height: 230px; box-shadow: 0 0 10px" class="img-fluid">
+               </div>
+               <div class="col-md-3 p-4">
+                <img src="travel images/manali1.jpeg" style="width: 100%; object-fit: cover; height: 230px; box-shadow: 0 0 10px" class="img-fluid">
+                 </div>
+                 <div class="col-md-3 p-4">
+                  <img src="travel images/paris1.jpeg" style="width: 100%; object-fit: cover; height: 230px; box-shadow: 0 0 10px"  class="img-fluid">
+                   </div>
+                   <div class="col-md-3 p-4">
+                    <img src="travel images/dubai1.jpeg" style="width: 100%; object-fit: cover; height: 230px; box-shadow: 0 0 10px"  class="img-fluid">
+                     </div>
+          </div>
+          <div class="row p-4">
+            <div class="col-md-3 p-4">
+              <img src="travel images/pondy2.jpg" style="width: 100%; object-fit: cover; height: 230px; box-shadow: 0 0 10px" class="img-fluid">
+               </div>
+               <div class="col-md-3 p-4">
+                <img src="travel images/manali2.jpeg" style="width: 100%; object-fit: cover; height: 230px; box-shadow: 0 0 10px"  class="img-fluid">
+                 </div>
+                 <div class="col-md-3 p-4">
+                  <img src="travel images/paris2.jpeg" style="width: 100%; object-fit: cover; height: 230px; box-shadow: 0 0 10px" class="img-fluid">
+                   </div>
+                   <div class="col-md-3 p-4">
+                    <img src="travel images/dubai2.jpeg" style="width: 100%; object-fit: cover; height: 230px; box-shadow: 0 0 10px"  class="img-fluid">
+                     </div>
+          </div>
+          <div class="row p-4">
+            <div class="col-md-3 p-4">
+              <img src="travel images/pondy3.jpg" style="width: 100%; object-fit: cover; height: 230px; box-shadow: 0 0 10px" class="img-fluid">
+               </div>
+               <div class="col-md-3 p-4">
+                <img src="travel images/manali3.jpeg" style="width: 95%; object-fit: cover; height: 230px; box-shadow: 0 0 10px" class="img-fluid">
+                 </div>
+                 <div class="col-md-3 p-4">
+                  <img src="travel images/paris3.jpeg" style="width: 100%; object-fit: cover; height: 230px; box-shadow: 0 0 10px" class="img-fluid">
+                   </div>
+                   <div class="col-md-3 p-4">
+                    <img src="travel images/dubai3.jpeg" style="width: 100%; object-fit: cover; height: 230px; box-shadow: 0 0 10px"  class="img-fluid">
+                     </div>
+          </div>
+          </section>
+          <section class="p-4">
+            <div class="container">
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="card text-center mt-4">
+                    <div class="card-body bg-secondary text-white">
+                      <i class="fa fa-envelope fa-4x"></i>
+                      <p class="h2 mt-3">Contact For Bookings</p>
+                      <p class="h5">Ready to embark on your next adventure? Contact us to book your dream trip!</p>
+                      <span>Phone : +91 8096690135 |</span><span> Email : sirishachekuri7@gmail.com |</span><br><span>Website : travelyaari.com</span>
+                        
+                    </div>
+                  </div>
+                  <ul class="list-group">
+                    <li class="list-group-item">
+                      <h4>Location : </h4>
+                    </li>
+                    <li class="list-group-item">
+                      <h4>Travel Yaari Pvt Ltd</h4>
+                    </li>
+                    <li class="list-group-item">
+                      <h4>Gachibowli, Hyderabad</h4>
+                    </li>
+                    <li class="list-group-item">
+                      <h4>Telangana, India</h4>
+                    </li>
+                  </ul>
+                </div>
+                <div class="col col-md-6 p-4">
+                  <div class="card">
+                    <div class="card-header bg-primary">
+                      <h3 class="text-center">Contact Us</h3>
+                      </div>
+                      <div class="card-body">
+                        <form>
+                          <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Name">
+                          </div>
+                          <br>
+                          <div class="form-group">
+                            <input type="email" class="form-control" placeholder="Email">
+                          </div>
+                          <br>
+                          <div class="form-group">
+                            <input type="number" class="form-control" placeholder="Mobile Number">
+                          </div>
+                          <br>
+                          <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Loved Destination">
+                          </div>
+                          <br>
+                          <div class="form-group">
+                            <textarea rows="5" class="form-control" placeholder="Any Queries?"></textarea>
+                        </div>
+                        </form>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+             </div>
+             <section>
+              <footer class="bg-warning p-3">
+                    <div class="container">
+                      <div class="row text-center">
+                        <div class="col">
+                          <h3>Copyright &copy; 2024, Travel Yaari Pvt Ltd</h3>
+                          <p class="h5">All Rights Reserved</p>
+                          <p class="h5">Developed and Maintained by <a href="">sirisha chekuri</a></p>
+                          <p class="h5">Tadepalligudem, Andhra Pradesh, India</p>
+                        </div>
+                      </div>
+                    </div>
+              </footer>
+             </section>
+          
+          
+    <script src="jquery.js"></script>
+    <script src="popper.js"></script>
+    <script src="bootstrap.js"></script>
+    <script src="mdb.js"></script>
+    <script>
+      $(".carousel").carousel({
+        interval:2000
+      })
+    </script>
+</body>
+</html>
+
+
